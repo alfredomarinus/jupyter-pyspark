@@ -1,4 +1,4 @@
-# PySpark / Jupyter Notebook with Docker Compose
+# PySpark / Jupyter Notebook using Docker Compose
 
 This repository provides a quick and easy way to launch a **Jupyter Notebook environment with PySpark**. It is designed to help you quickly set up a scalable data processing environment without complex local installations.
 
@@ -17,7 +17,7 @@ You only need **Docker Desktop** installed on your machine.
 
 1.  **Clone this repository** (or simply download the `docker-compose.yml` file into an empty directory):
     ```bash
-    git clone [https://github.com/](https://github.com/)alfredomarinus/jupyter-pyspark.git
+    git clone https://github.com/alfredomarinus/jupyter-pyspark.git
     cd jupyter-pyspark
     ```
 
@@ -31,14 +31,14 @@ You only need **Docker Desktop** installed on your machine.
 
 ### Accessing Jupyter Notebook
 
-Once the services are running (you'll see a lot of output in your terminal), open your web browser and go to:
+Once the services are running (you will see a lot of output in your terminal), open your web browser and go to:
 
 `http://127.0.0.1:8888`
 
 
 ---
 
-## What's Included
+## What is Included
 
 The `docker-compose.yml` file sets up a Jupyter Notebook environment with:
 
